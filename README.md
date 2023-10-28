@@ -1,2 +1,2 @@
 # algoritmos-logica
- Here I'm learning algorithms and programming logic using JavaScript.
+Aqui está meu progresso aprendendo Algoritmos e Lógica da programação com o instrutor Leonardo Moura, na Udemy.
