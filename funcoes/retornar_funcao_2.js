@@ -1,11 +1,12 @@
-function retornar() {
-
-    function bomDia() {
-        return "Bom dia!!";
+function retornarUmaFuncao() {
+    return function () {
+        return function () {
+            return "Boa tarde!";
+        } 
     }
-
-    return bomDia();
 }
 
-console.log(retornar);
-console.log(retornar());
+console.log(retornarUmaFuncao);
+console.log(retornarUmaFuncao());
+console.log(retornarUmaFuncao()());
+console.log(retornarUmaFuncao()()());
